@@ -55,9 +55,4 @@ public class FileUtils {
         return enc;
     }
 
-    public static void main(String[] args) {
-        FileUtils fileUtils = new FileUtils();
-        fileUtils.getFileEncodeUTFGBK("C:\\Users\\bessie\\Desktop\\rhgzs.doc");
-        fileUtils.getFileNameFormPath("C:\\Users\\bessie\\Desktop\\rhgzs.doc");
-    }
 }
